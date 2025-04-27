@@ -11,6 +11,7 @@ void matmult(float* A,float* B,float *C){
     }
 }
 
+
 void warpShort(short* segw,short* seg1,float* X,int m,int n,int o){
     int sz=m*n*o;
     for(int k=0;k<o;k++){
